@@ -10,10 +10,10 @@ AUTHENTICATE USER BACKEND PROJECT [![CircleCI](https://dl.circleci.com/status-ba
 
 OVERVIEW
 ---------------------------
-## Create database and start the API server. <br />
+## Create database and start the API server <br />
 This project is running on localhost:5001.<br/>
 2 Databases are used: One for development and the other for testing. <br/>
-## Environment Variables
+## Environment Variables:
 <br/> 
 PORT=5001 <br />
 MONGODB='mongodb://localhost/your-db-name'<br />
@@ -30,7 +30,7 @@ npm run test- inits Jasmine to run unit test on the User Schema and User Routes
  
 
 ## END POINTS: 
-- Create User <br />
+- Create User: <br />
 In Postman create a JSON object to send to create a user: '/api/users' <br /> <br />
 Required fields: <br />
 {<br />
@@ -45,7 +45,7 @@ subscription_active: bool <br />
 } <br /> <br />
 Expect return message to be a JSON object of the created user.
 
-- JWT Authentication <br />
+- JWT Authentication: <br />
 In Postman create a JSON object for logging in: '/api/auth' <br /> <br />
 Required fields: <br />
 {<br />
