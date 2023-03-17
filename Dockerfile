@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:alpine@sha256:a67a33f791d1c86ced985f339fa160f6188f590ebbe963fe11cc00adc971fa41
 COPY . /app
 WORKDIR /app/src
 RUN deluser --remove-home node
